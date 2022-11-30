@@ -1,0 +1,40 @@
+<h1>Artistas</h1>
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Nome</th>
+    <th>Cpf</th>
+    <th>Data de Nascimento</th>
+    <th>Criado em</th>
+    <th>Remover</th>
+    <th>Alterar</th>
+  </tr>
+
+  <tr *ngFor="let artista of artistas">
+    <td>{{ artista.id }}</td>
+    <td>{{ artista.nome }}</td>
+    <td>{{ artista.cpf }}</td>
+    <td>{{ artista.dataNascimento | date : "dd/MM/yyyy" }}</td>
+    <td>{{ artista.criadoEm | date : "dd/MM/yyyy" }}</td>
+
+    <td>
+      <button
+        mat-raised-button
+        color="warn"
+        id="btnRemover"
+        (click)="remover(artista.id!)"
+      >
+        Remover
+      </button>
+    </td>
+    <td>
+      <a
+        mat-button
+        target="_blank"
+        routerLink="/pages/artista/cadastrar {{ artista.id }}"
+        >Alterar</a
+      >
+    </td>
+  </tr>
+</table>

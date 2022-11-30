@@ -1,0 +1,34 @@
+### Listar os agendamentos 
+GET https://localhost:5001/api/agendameto/Listar
+
+
+### Buscar os agendamentos
+GET https://localhost:5001/api/agendamento/buscar/123
+
+
+### Cadastrar novos agendamentos
+POST https://localhost:5001/api/agendameto/cadastrar
+Content-Type: application/json
+
+{
+  "Cliente": "amanda",
+  "cpf" : "12345678901",
+  "LocalDaTattoo": "mao",
+  "Artista": "amanda",
+  "DataAgendamento": "2/10/2022"
+}
+
+### Deletar um agendamento
+DELETE  https://localhost:5001/api/agendameto/deletar/6
+
+
+### Alterar um agendamento
+PATCH  https://localhost:5001/api/agendamento/alterar
+Content-Type: application/json
+
+#   {
+#     "nome" : "joaozin",
+#     "cpf" : "amanda"
+#   }
+
+//confirmar a forma de buscar o agendamento, data, nome do artista ou ID

@@ -1,0 +1,21 @@
+<h1>Agendamentos</h1>
+
+<table>
+  <tr>
+    <th>#</th>
+    <th>Cliente</th>
+    <th>Artista</th>
+    <th>Local Da Tattoo</th>
+    <th>Data</th>
+    <th>Criado em</th>
+  </tr>
+
+  <tr *ngFor="let agendamento of agendamentos">
+    <td>{{ agendamento.id }}</td>
+    <td>{{ agendamento.cliente?.nome }}</td>
+    <td>{{ agendamento.artista?.nome }}</td>
+    <td>{{ agendamento.localDaTattoo }}</td>
+    <td>{{ agendamento.dataAgendamento }}</td>
+    <td>{{ agendamento.criadoEm }}</td>
+  </tr>
+</table>

@@ -1,0 +1,33 @@
+### Listar os artistas
+GET https://localhost:5001/api/artista/listar
+
+### Buscar os artistas
+GET https://localhost:5001/api/artista/buscar/
+
+### Cadastrar novos artistas
+POST https://localhost:5001/api/artista/cadastrar
+Content-Type: application/json
+
+{
+  "Nome": "joao",
+  "Genero": "f",
+  "cpf": "12132123131",
+  "Contato":"219333",
+  "DataAgendamento": "1/1/1",
+  "dataNascimento": "1/1/1"
+}
+
+### Deletar um artist
+DELETE https://localhost:5001/api/artista/deletar
+
+
+### Alterar um artista
+PATCH https://localhost:5001/api/artista/alterar
+Content-Type: application/json
+
+{
+  "Nome": "",
+  "Gênero": "",
+  "cpf": "",
+  "CriadoEm": ""
+}
