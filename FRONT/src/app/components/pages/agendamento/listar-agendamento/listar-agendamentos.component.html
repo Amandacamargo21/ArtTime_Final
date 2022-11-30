@@ -16,6 +16,6 @@
     <td>{{ agendamento.artista?.nome }}</td>
     <td>{{ agendamento.localDaTattoo }}</td>
     <td>{{ agendamento.dataAgendamento }}</td>
-    <td>{{ agendamento.criadoEm }}</td>
+    <td>{{ agendamento.criadoEm | date : "dd/MM/yyyy" }}</td>
   </tr>
 </table>

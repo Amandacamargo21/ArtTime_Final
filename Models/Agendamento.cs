@@ -8,6 +8,7 @@ namespace ArtTime.Models
 
     public class Agendamento
     {
+        public Agendamento() => CriadoEm = DateTime.Now;
         public int Id { get; set; }
         public string localDaTattoo { get; set; }
         public string dataAgendamento { get; set; }
