@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amand\\OneDrive\\Desktop\\ArtTime-Main-c09db449dad83dcd9649f880082e130ca0b2c476\\ArtTime.csproj": {}
+    "C:\\Users\\amand\\OneDrive\\Desktop\\ArtTime-Main\\ArtTime.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amand\\OneDrive\\Desktop\\ArtTime-Main-c09db449dad83dcd9649f880082e130ca0b2c476\\ArtTime.csproj": {
+    "C:\\Users\\amand\\OneDrive\\Desktop\\ArtTime-Main\\ArtTime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amand\\OneDrive\\Desktop\\ArtTime-Main-c09db449dad83dcd9649f880082e130ca0b2c476\\ArtTime.csproj",
+        "projectUniqueName": "C:\\Users\\amand\\OneDrive\\Desktop\\ArtTime-Main\\ArtTime.csproj",
         "projectName": "ArtTime",
-        "projectPath": "C:\\Users\\amand\\OneDrive\\Desktop\\ArtTime-Main-c09db449dad83dcd9649f880082e130ca0b2c476\\ArtTime.csproj",
+        "projectPath": "C:\\Users\\amand\\OneDrive\\Desktop\\ArtTime-Main\\ArtTime.csproj",
         "packagesPath": "C:\\Users\\amand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amand\\OneDrive\\Desktop\\ArtTime-Main-c09db449dad83dcd9649f880082e130ca0b2c476\\obj\\",
+        "outputPath": "C:\\Users\\amand\\OneDrive\\Desktop\\ArtTime-Main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amand\\AppData\\Roaming\\NuGet\\NuGet.Config"
